@@ -38,7 +38,7 @@ const Hero = () => {
       {loading ? (
         <p className="text-2xl">Chargement...</p>
       ) : (
-        <p className="text-7xl font-bold">{data ? data.joke : "Pas de blague trouvée"}</p>
+        <p className="text-6xl font-bold">{data ? data.joke : "Pas de blague trouvée"}</p>
       )}
     </div>
   );
